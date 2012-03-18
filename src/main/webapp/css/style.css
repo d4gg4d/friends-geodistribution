@@ -1,0 +1,64 @@
+html { height: 100% }
+
+body { height: 100%; margin: 10px; padding: 5px; text-align: center; background: HoneyDew; font-family: "Helvetica"}
+
+div#wrap {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	text-align: left;
+}
+
+header {
+    text-align: center;
+    background: Orange;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+footer {
+    background: lightGrey;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+menu {
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.subtitle {
+    background: lightGrey;
+}
+
+article {
+    background: Linen;
+    border-radius: 10px;
+    padding: 2px;
+    margin: auto;
+    text-align: center;
+}
+
+article .content {
+    padding: 5px;
+    text-align: center;
+}
+
+article .content .info {
+    text-align: center;
+}
+
+.content.gmap {
+    width: 800px;
+    height: 800px;
+}
+
+p {
+    text-align: left;
+}
+
+.buttons {
+    padding: 10px;
+}

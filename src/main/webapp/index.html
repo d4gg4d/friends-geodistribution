@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Mashup Site</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script data-main="main" src="js/libs/require/require.js"></script>
+</head>
+<body>
+<div id="fb-root"></div>
+
+<div id="wrap">
+    <header class="main">
+        <h1>A2 - Social Mashup</h1>
+        <h3>Assignment for Web Application Frameworks course</h3>
+    </header>
+
+    <aside>
+        <menu id="apiSelector">
+            <button id="friendMap" class="menu button">Find Your Friend Distribution</button>
+            <button id="contact" class="menu button">Who Am I?</button>
+        </menu>
+    </aside>
+
+    <div id="mainPage">
+        <div id="contentArea" class="main content">
+            <article>
+                <header class="subtitle">
+                    <h1>Purpose of this application</h1>
+                </header>
+                <div class="content">
+                    <p>This assignment integrates 3 commonly used Web application APIs together as a tutorial for web framework applications.
+                        In the application I have used Facebooks API to retrieve current home location of users friends and then used the data to
+                        represent geographical distribution of his/her friends in a Google Maps application.
+                    </p>
+                    <p>To ease up my implementation load, I have used several javascript technologies that enables me to do better web applications.
+                        For MVC model I have used Backbone, modularity was achieved via requireJS and jQuery was used to binder utility. For this being
+                        tutorial work on web application frameworks I decided to concentrate on trying out different javascript SDKs features.
+                        When implementing this I found out that for the Mashup application I didn't need to implement backend at all (no data persistence needed/desired).
+                    </p>
+                </div>
+                <footer>
+                    <div class="fb-like" data-href="http://localhost" data-send="false" data-layout="box_count" data-width="200" data-show-faces="true" data-font="verdana"></div>
+                </footer>
+            </article>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
