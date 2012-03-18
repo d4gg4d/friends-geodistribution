@@ -17,7 +17,7 @@ define(['underscore'],function(_) {
     window.fbAsyncInit = function() {
 	FB.init({
 	    appId      : '367787493254897', // App ID
-	    channelUrl : '//friends-geodistribution.herokuapp.com:8080/channel.html', // Channel File
+	    channelUrl : '//friends-geodistribution.herokuapp.com/channel.html', // Channel File
 	    status     : true, // check login status
 	    cookie     : true, // enable cookies to allow the server to access the session
 	    xfbml      : true  // parse XFBML
